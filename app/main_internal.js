@@ -24,7 +24,7 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 
 
-var bounds = [[0,0], [463,548]];
+var bounds1 = [[0,0], [463,548]];
 var plan_b10etage1 = L.map('plan_b10etage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -32,14 +32,14 @@ var plan_b10etage1 = L.map('plan_b10etage1', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds1,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b10etage1.png', bounds).addTo(plan_b10etage1);
-plan_b10etage1.fitBounds(bounds);
+plan_b10etage1.fitBounds(bounds1);
 
-var bounds = [[0,0], [462,548]];
+var bounds2 = [[0,0], [462,548]];
 var plan_b10etage2 = L.map('plan_b10etage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -47,16 +47,16 @@ var plan_b10etage2 = L.map('plan_b10etage2', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds2,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
     
 });
 var image = L.imageOverlay('img/b10etage2.png', bounds).addTo(plan_b10etage2);
-plan_b10etage2.fitBounds(bounds);
+plan_b10etage2.fitBounds(bounds2);
 
 
-var bounds = [[0,0], [459,548]];
+var bounds3 = [[0,0], [459,548]];
 var plan_b10rdc = L.map('plan_b10rdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -64,14 +64,14 @@ var plan_b10rdc = L.map('plan_b10rdc', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds3,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10rdc);
-plan_b10rdc.fitBounds(bounds);
+plan_b10rdc.fitBounds(bounds3);
 
-var bounds = [[0,0], [459,548]];
+var bounds4 = [[0,0], [459,548]];
 var plan_b10sousol = L.map('plan_b10sousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -79,14 +79,14 @@ var plan_b10sousol = L.map('plan_b10sousol', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds4,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10sousol);
-plan_b10sousol.fitBounds(bounds);
+plan_b10sousol.fitBounds(bounds4);
 
-var bounds = [[0,0], [448,548]];
+var bounds5 = [[0,0], [448,548]];
 var plan_b17sousol = L.map('plan_b17sousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -94,14 +94,14 @@ var plan_b17sousol = L.map('plan_b17sousol', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds5,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b17sousol.png', bounds).addTo(plan_b17sousol);
-plan_b17sousol.fitBounds(bounds);
+plan_b17sousol.fitBounds(bounds5);
 
-var bounds = [[0,0], [461,548]];
+var bounds6 = [[0,0], [461,548]];
 var plan_b17rdc = L.map('plan_b17rdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -109,14 +109,14 @@ var plan_b17rdc = L.map('plan_b17rdc', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds6,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b17rezdechaus.png', bounds).addTo(plan_b17rdc);
-plan_b17rdc.fitBounds(bounds);
+plan_b17rdc.fitBounds(bounds6);
 
-var bounds = [[0,0], [459,548]];
+var bounds7 = [[0,0], [459,548]];
 var plan_b17etage1 = L.map('plan_b17etage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -124,14 +124,14 @@ var plan_b17etage1 = L.map('plan_b17etage1', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds7,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b17etage1.png', bounds).addTo(plan_b17etage1);
-plan_b17etage1.fitBounds(bounds);
+plan_b17etage1.fitBounds(bounds7);
 
-var bounds = [[0,0], [462,548]];
+var bounds8 = [[0,0], [462,548]];
 var plan_b17etage2 = L.map('plan_b17etage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -139,14 +139,14 @@ var plan_b17etage2 = L.map('plan_b17etage2', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds8,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/b17etage2.png', bounds).addTo(plan_b17etage2);
-plan_b17etage2.fitBounds(bounds);
+plan_b17etage2.fitBounds(bounds8);
 
-var bounds = [[0,0], [503,548]];
+var bounds9 = [[0,0], [503,548]];
 var plan_mtetage1 = L.map('plan_mtetage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -154,14 +154,14 @@ var plan_mtetage1 = L.map('plan_mtetage1', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds9,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/mtetage1.png', bounds).addTo(plan_mtetage1);
-plan_mtetage1.fitBounds(bounds);
+plan_mtetage1.fitBounds(bounds9);
 
-var bounds = [[0,0], [516,548]];
+var bounds10 = [[0,0], [516,548]];
 var plan_mtetage2 = L.map('plan_mtetage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -169,14 +169,14 @@ var plan_mtetage2 = L.map('plan_mtetage2', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds10,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/mtetage2.png', bounds).addTo(plan_mtetage2);
-plan_mtetage2.fitBounds(bounds);
+plan_mtetage2.fitBounds(bounds10);
 
-var bounds = [[0,0], [503,548]];
+var bounds11 = [[0,0], [503,548]];
 var plan_mtrdc = L.map('plan_mtrdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -184,14 +184,14 @@ var plan_mtrdc = L.map('plan_mtrdc', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds11,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtrdc);
-plan_mtrdc.fitBounds(bounds);
+plan_mtrdc.fitBounds(bounds11);
 
-var bounds = [[0,0], [503,548]];
+var bounds12 = [[0,0], [503,548]];
 var plan_mtsousol = L.map('plan_mtsousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
@@ -199,12 +199,12 @@ var plan_mtsousol = L.map('plan_mtsousol', {
     maxZoom: 0,
     dragging: false,
     zoomControl:false,
-    maxBounds: bounds,
-    maxBoundsViscosity: 1.0,
+    maxBounds: bounds12,
+    // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
 var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtsousol);
-plan_mtsousol.fitBounds(bounds);
+plan_mtsousol.fitBounds(bounds12);
 
 
 
