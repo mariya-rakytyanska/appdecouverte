@@ -244,7 +244,7 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 }); 
 
-var polyv = L.circle([70,200], {
+var polyv = L.circle([390,200], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
@@ -256,7 +256,7 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 }); 
 
-var salledp = L.circle([340,350], {
+var salledp = L.circle([120,350], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
@@ -280,7 +280,7 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 }); 
 
-var viesc = L.circle([30,320], {
+var viesc = L.circle([420,360], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
@@ -292,7 +292,7 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 }); 
 
-var labor = L.circle([40,430], {
+var labor = L.circle([420,430], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
