@@ -45,9 +45,9 @@ var plan_b10etage2 = L.map('plan_b10etage2', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds2,
+    // maxBounds: bounds2,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
     
@@ -62,9 +62,9 @@ var plan_b10rdc = L.map('plan_b10rdc', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds3,
+    // maxBounds: bounds3,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -77,9 +77,9 @@ var plan_b10sousol = L.map('plan_b10sousol', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds4,
+    // maxBounds: bounds4,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -92,9 +92,9 @@ var plan_b17sousol = L.map('plan_b17sousol', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds5,
+    // maxBounds: bounds5,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -107,9 +107,9 @@ var plan_b17rdc = L.map('plan_b17rdc', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds6,
+    // maxBounds: bounds6,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -122,9 +122,9 @@ var plan_b17etage1 = L.map('plan_b17etage1', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds7,
+    // maxBounds: bounds7,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -137,9 +137,9 @@ var plan_b17etage2 = L.map('plan_b17etage2', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds8,
+    // maxBounds: bounds8,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -152,9 +152,9 @@ var plan_mtetage1 = L.map('plan_mtetage1', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds9,
+    // maxBounds: bounds9,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -167,9 +167,9 @@ var plan_mtetage2 = L.map('plan_mtetage2', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds10,
+    // maxBounds: bounds10,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -182,9 +182,9 @@ var plan_mtrdc = L.map('plan_mtrdc', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds11,
+    // maxBounds: bounds11,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
@@ -197,9 +197,9 @@ var plan_mtsousol = L.map('plan_mtsousol', {
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
-    dragging: false,
+    // dragging: false,
     zoomControl:false,
-    maxBounds: bounds12,
+    // maxBounds: bounds12,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
