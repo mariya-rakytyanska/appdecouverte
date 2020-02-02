@@ -220,7 +220,7 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 });  
 
-var auditorium = L.circle([110,450], {
+var auditorium = L.circle([230,470], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
