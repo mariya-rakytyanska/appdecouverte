@@ -31,3 +31,9 @@
     width: 100%;
 }
 
+.leaflet-popup-content{
+     font-size: 16pt;
+  }
+.mdl-card__supporting-text{
+    font-size: 16pt;
+ }
