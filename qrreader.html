@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/material.green-orange.min.css" />
+    <script defer src="app/material.min.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <script src="app/leaflet.js"></script>
+    <link rel="stylesheet" href="css/iil-peach.css">
+ 
+    <script type="text/javascript" src="app/instascan/instascan.js"></script>
+    <style>
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+
+        #mt_plan {
+            width: 100%;
+        }
+
+        #icon {
+            color: rgba(255, 255, 255);
+        }
+
+        #icon_selected {
+            color: rgb(255, 255, 0);
+        }
+
+        #qr {
+            line-height: 48px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 14px;
+            color: rgb(115, 93, 58);
+        }
+    </style>
+    <div id="qr"> Scannez le QR code devant vous pour accéder au site explicatif.
+        En cas de problème veuillez contacter votre guide. </div>
+</head>
+
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <main class="mdl-layout__content">
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--1-col">&nbsp;</div>
+                <div class="mdl-cell mdl-cell--6-col">
+                    <video id="preview" style="width: 100%; margin-top: 200;"></video>
+                </div>
+                <div class="mdl-cell mdl-cell--1-col">&nbsp;</div>
+            </div>
+            <script type="text/javascript">
+                let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+                scanner.addListener('scan', function (content) {
+                    //window.alert(content);
+                    window.location.replace(content);
+                });
+                Instascan.Camera.getCameras().then(function (cameras) {
+                    if (cameras.length > 0) {
+                        scanner.start(cameras[0]);
+                    } else {
+                        window.alert('No cameras found.');
+                    }
+                }).catch(function (e) {
+                    window.alert(e);
+                });
+            </script>
+        </main>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row" id="footer">
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                    <a href="index.html"><i class="material-icons md-18" id="icon">home</i></a>
+                </div>
+                <div class="mdl-cell mdl-cell--2-col mdl-typography--text-center">
+                    <i class="material-icons md-18" id="icon_selected">camera_alt</i>
+                </div>
+                <div class="mdl-cell mdl-cell--3-col mdl-typography--text-center">
+                    <a href="360.html"><i class="material-icons md-18" id="icon">360</i></a>
+                </div>
+            </div>
+
+        </header>
+    </div>
+
+    </div>
+    <script>
+
+    </script>
+</body>
+
+</html>
