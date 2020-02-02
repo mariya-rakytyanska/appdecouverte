@@ -24,151 +24,185 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 
 
-
+var bounds = [[0,0], [463,548]];
 var plan_b10etage1 = L.map('plan_b10etage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [463,548]];
 var image = L.imageOverlay('img/b10etage1.png', bounds).addTo(plan_b10etage1);
 plan_b10etage1.fitBounds(bounds);
 
+var bounds = [[0,0], [462,548]];
 var plan_b10etage2 = L.map('plan_b10etage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
     
 });
-var bounds = [[0,0], [462,548]];
 var image = L.imageOverlay('img/b10etage2.png', bounds).addTo(plan_b10etage2);
 plan_b10etage2.fitBounds(bounds);
 
 
-
+var bounds = [[0,0], [459,548]];
 var plan_b10rdc = L.map('plan_b10rdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [459,548]];
 var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10rdc);
 plan_b10rdc.fitBounds(bounds);
 
+var bounds = [[0,0], [459,548]];
 var plan_b10sousol = L.map('plan_b10sousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [459,548]];
 var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10sousol);
 plan_b10sousol.fitBounds(bounds);
 
+var bounds = [[0,0], [448,548]];
 var plan_b17sousol = L.map('plan_b17sousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [448,548]];
 var image = L.imageOverlay('img/b17sousol.png', bounds).addTo(plan_b17sousol);
 plan_b17sousol.fitBounds(bounds);
 
+var bounds = [[0,0], [461,548]];
 var plan_b17rdc = L.map('plan_b17rdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [461,548]];
 var image = L.imageOverlay('img/b17rezdechaus.png', bounds).addTo(plan_b17rdc);
 plan_b17rdc.fitBounds(bounds);
 
+var bounds = [[0,0], [459,548]];
 var plan_b17etage1 = L.map('plan_b17etage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [459,548]];
 var image = L.imageOverlay('img/b17etage1.png', bounds).addTo(plan_b17etage1);
 plan_b17etage1.fitBounds(bounds);
 
+var bounds = [[0,0], [462,548]];
 var plan_b17etage2 = L.map('plan_b17etage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [462,548]];
 var image = L.imageOverlay('img/b17etage2.png', bounds).addTo(plan_b17etage2);
 plan_b17etage2.fitBounds(bounds);
 
+var bounds = [[0,0], [503,548]];
 var plan_mtetage1 = L.map('plan_mtetage1', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [503,548]];
 var image = L.imageOverlay('img/mtetage1.png', bounds).addTo(plan_mtetage1);
 plan_mtetage1.fitBounds(bounds);
 
+var bounds = [[0,0], [516,548]];
 var plan_mtetage2 = L.map('plan_mtetage2', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [516,548]];
 var image = L.imageOverlay('img/mtetage2.png', bounds).addTo(plan_mtetage2);
 plan_mtetage2.fitBounds(bounds);
 
+var bounds = [[0,0], [503,548]];
 var plan_mtrdc = L.map('plan_mtrdc', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [503,548]];
 var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtrdc);
 plan_mtrdc.fitBounds(bounds);
 
+var bounds = [[0,0], [503,548]];
 var plan_mtsousol = L.map('plan_mtsousol', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
     maxZoom: 0,
     dragging: false,
-    zoomControl:false
+    zoomControl:false,
+    maxBounds: bounds,
+    maxBoundsViscosity: 1.0,
+    touchZoom: false
 });
-var bounds = [[0,0], [503,548]];
 var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtsousol);
 plan_mtsousol.fitBounds(bounds);
 
