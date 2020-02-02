@@ -32,7 +32,7 @@ var plan_b10etage1 = L.map('plan_b10etage1', {
     maxZoom: 0,
     // dragging: false,
     zoomControl:false,
-    maxBounds: bounds1,
+    // maxBounds: bounds1,
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
