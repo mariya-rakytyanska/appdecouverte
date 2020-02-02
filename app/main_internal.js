@@ -36,7 +36,7 @@ var plan_b10etage1 = L.map('plan_b10etage1', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b10etage1.png', bounds).addTo(plan_b10etage1);
+var image = L.imageOverlay('img/b10etage1.png', bounds1).addTo(plan_b10etage1);
 plan_b10etage1.fitBounds(bounds1);
 
 var bounds2 = [[0,0], [462,548]];
@@ -52,7 +52,7 @@ var plan_b10etage2 = L.map('plan_b10etage2', {
     touchZoom: false
     
 });
-var image = L.imageOverlay('img/b10etage2.png', bounds).addTo(plan_b10etage2);
+var image = L.imageOverlay('img/b10etage2.png', bounds2).addTo(plan_b10etage2);
 plan_b10etage2.fitBounds(bounds2);
 
 
@@ -68,7 +68,7 @@ var plan_b10rdc = L.map('plan_b10rdc', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10rdc);
+var image = L.imageOverlay('img/b10.png', bounds3).addTo(plan_b10rdc);
 plan_b10rdc.fitBounds(bounds3);
 
 var bounds4 = [[0,0], [459,548]];
@@ -83,7 +83,7 @@ var plan_b10sousol = L.map('plan_b10sousol', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b10.png', bounds).addTo(plan_b10sousol);
+var image = L.imageOverlay('img/b10.png', bounds4).addTo(plan_b10sousol);
 plan_b10sousol.fitBounds(bounds4);
 
 var bounds5 = [[0,0], [448,548]];
@@ -98,7 +98,7 @@ var plan_b17sousol = L.map('plan_b17sousol', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b17sousol.png', bounds).addTo(plan_b17sousol);
+var image = L.imageOverlay('img/b17sousol.png', bounds5).addTo(plan_b17sousol);
 plan_b17sousol.fitBounds(bounds5);
 
 var bounds6 = [[0,0], [461,548]];
@@ -113,7 +113,7 @@ var plan_b17rdc = L.map('plan_b17rdc', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b17rezdechaus.png', bounds).addTo(plan_b17rdc);
+var image = L.imageOverlay('img/b17rezdechaus.png', bounds6).addTo(plan_b17rdc);
 plan_b17rdc.fitBounds(bounds6);
 
 var bounds7 = [[0,0], [459,548]];
@@ -128,7 +128,7 @@ var plan_b17etage1 = L.map('plan_b17etage1', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b17etage1.png', bounds).addTo(plan_b17etage1);
+var image = L.imageOverlay('img/b17etage1.png', bounds7).addTo(plan_b17etage1);
 plan_b17etage1.fitBounds(bounds7);
 
 var bounds8 = [[0,0], [462,548]];
@@ -143,7 +143,7 @@ var plan_b17etage2 = L.map('plan_b17etage2', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b17etage2.png', bounds).addTo(plan_b17etage2);
+var image = L.imageOverlay('img/b17etage2.png', bounds8).addTo(plan_b17etage2);
 plan_b17etage2.fitBounds(bounds8);
 
 var bounds9 = [[0,0], [503,548]];
@@ -158,7 +158,7 @@ var plan_mtetage1 = L.map('plan_mtetage1', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/mtetage1.png', bounds).addTo(plan_mtetage1);
+var image = L.imageOverlay('img/mtetage1.png', bounds9).addTo(plan_mtetage1);
 plan_mtetage1.fitBounds(bounds9);
 
 var bounds10 = [[0,0], [516,548]];
@@ -173,7 +173,7 @@ var plan_mtetage2 = L.map('plan_mtetage2', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/mtetage2.png', bounds).addTo(plan_mtetage2);
+var image = L.imageOverlay('img/mtetage2.png', bounds10).addTo(plan_mtetage2);
 plan_mtetage2.fitBounds(bounds10);
 
 var bounds11 = [[0,0], [503,548]];
@@ -188,7 +188,7 @@ var plan_mtrdc = L.map('plan_mtrdc', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtrdc);
+var image = L.imageOverlay('img/mt.png', bounds11).addTo(plan_mtrdc);
 plan_mtrdc.fitBounds(bounds11);
 
 var bounds12 = [[0,0], [503,548]];
@@ -203,7 +203,7 @@ var plan_mtsousol = L.map('plan_mtsousol', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/mt.png', bounds).addTo(plan_mtsousol);
+var image = L.imageOverlay('img/mt.png', bounds12).addTo(plan_mtsousol);
 plan_mtsousol.fitBounds(bounds12);
 
 
