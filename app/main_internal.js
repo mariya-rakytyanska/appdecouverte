@@ -226,7 +226,7 @@ var auditorium = L.circle([110,450], {
     fillOpacity: 0.5,
     radius: 10
 }).addTo(plan_b17rdc);
-auditorium.bindPopup(" ");
+auditorium.bindPopup(" Auditorium ");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
