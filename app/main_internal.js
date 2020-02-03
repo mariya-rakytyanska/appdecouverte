@@ -365,6 +365,18 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 }); 
 
+var auditorium = L.circle([230,470], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 10
+}).addTo(plan_b17rdc);
+auditorium.bindPopup(" Ici se trouve l'auditorium du B17. Dans cet espace se passent l'atelier théatre et des expositions entre autres.");
+var myIcon = L.icon({
+    iconUrl: 'assets/img/localisation.png',
+    iconSize: [30, 40],
+}); 
+
 var viesc = L.circle([420,360], {
     color: 'red',
     fillColor: '#f03',
