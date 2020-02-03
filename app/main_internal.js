@@ -220,19 +220,19 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 });  
 
-var mt11 = L.circle([250,150], {
+var mt11 = L.circle([270,450], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
 }).addTo(plan_mtetage1);
-sds.bindPopup("Ici se trouve le bureau de Jean-Francois Lopez, le responsable primaire francais.");
+mt11.bindPopup("Ici se trouve le bureau de Jean-Francois Lopez, le responsable primaire francais.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
 });  
 
-var b17_206 = L.circle([250,150], {
+var b17_206 = L.circle([390,480], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
@@ -244,31 +244,43 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 });  
 
-var b17_207 = L.circle([250,150], {
+var b17_106 = L.circle([390,480], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
-}).addTo(plan_mtetage1);
+}).addTo(plan_b17etage1);
+b17_206.bindPopup("Ici se trouve le bureau de Madame Raffy, la responsable du secondaire anglais.");
+var myIcon = L.icon({
+    iconUrl: 'img/localisation.png',
+    iconSize: [30, 40],
+});  
+
+var b17_207 = L.circle([360,480], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 10
+}).addTo(plan_b17etage2);
 b17_207.bindPopup("Ici se trouve le bureau de Madame Shéa, la conséillère d'orientation.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
 });  
 
-var steam_robots = L.circle([250,150], {
+var steam_robots = L.circle([150,500], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
 }).addTo(plan_mtsousol);
-steam_robots.bindPopup("Ici se trouve le bureau de Madame Shéa, la conséillère d'orientation.");
+steam_robots.bindPopup("Ici se trouve l'espace des robots légo et le mur végétal. Ici se trouve aussi le lombricompost.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
 });  
 
-var steam_couture = L.circle([250,150], {
+var steam_couture = L.circle([400,500], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
@@ -280,41 +292,30 @@ var myIcon = L.icon({
     iconSize: [30, 40],
 });  
 
-var steam_robots = L.circle([250,150], {
+var steam_musique= L.circle([150,150], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
 }).addTo(plan_mtsousol);
-steam_robots.bindPopup("Ici se trouve l'espace pour les robots légo et le mur végétal. Ici se trouve aussi le lombricompost.");
-var myIcon = L.icon({
-    iconUrl: 'img/localisation.png',
-    iconSize: [30, 40],
-});  
-
-var steam_musique= L.circle([230,470], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 10
-}).addTo(plan_b17rdc);
 steam_musique.bindPopup("Ici se trouve l'espace musique.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
 }); 
 
-var steam_machine= L.circle([230,470], {
+var steam_machine= L.circle([330,150], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
-}).addTo(plan_b17rdc);
+}).addTo(plan_mtsousol);
 steam_machine.bindPopup("Ici se trouve la salle des machines outils.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
     iconSize: [30, 40],
 });
+
 
 var salleds = L.circle([80,80], {
     color: 'red',
