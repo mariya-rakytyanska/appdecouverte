@@ -205,21 +205,6 @@ var plan_mtsousol = L.map('plan_mtsousol', {
 var image = L.imageOverlay('img/mt.png', bounds12).addTo(plan_mtsousol);
 plan_mtsousol.fitBounds(bounds12);
 
-var bounds13 = [[0,0], [462,548]];
-var plan_b17etage3 = L.map('plan_b17etage3', {
-    crs: L.CRS.Simple,
-    attributionControl: false,
-    minZoom: 0,
-    maxZoom: 0,
-    // dragging: false,
-    zoomControl:false,
-    // maxBounds: bounds13,
-    // maxBoundsViscosity: 1.0,
-    touchZoom: false
-    
-});
-var image = L.imageOverlay('img/b17etage2.png', bounds13).addTo(plan_b17etage3);
-plan_b17etage3.fitBounds(bounds13);
 
 
 
