@@ -55,6 +55,22 @@ var plan_b10etage2 = L.map('plan_b10etage2', {
 var image = L.imageOverlay('img/b10etage2.png', bounds2).addTo(plan_b10etage2);
 plan_b10etage2.fitBounds(bounds2);
 
+var bounds3 = [[0,0], [462,548]];
+var plan_b10etage3 = L.map('plan_b10etage3', {
+    crs: L.CRS.Simple,
+    attributionControl: false,
+    minZoom: 0,
+    maxZoom: 0,
+    // dragging: false,
+    zoomControl:false,
+    // maxBounds: bounds2,
+    // maxBoundsViscosity: 1.0,
+    touchZoom: false
+    
+});
+var image = L.imageOverlay('img/b10etage2.png', bounds2).addTo(plan_b10etage3);
+plan_b10etage3.fitBounds(bounds3);
+
 
 var bounds3 = [[0,0], [459,548]];
 var plan_b10rdc = L.map('plan_b10rdc', {
