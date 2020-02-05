@@ -334,7 +334,7 @@ var myIcon = L.icon({
 });
 
 
-var salleds = L.circle([180,100], {
+var salleds = L.circle([180,200], {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5,
