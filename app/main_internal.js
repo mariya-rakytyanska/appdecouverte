@@ -218,7 +218,7 @@ var plan_b17etage3 = L.map('plan_b17etage3', {
     // maxBoundsViscosity: 1.0,
     touchZoom: false
 });
-var image = L.imageOverlay('img/b17etage2.png', bounds13).addTo(plan_b17etage3);
+var image = L.imageOverlay('img/b17etage3.png', bounds13).addTo(plan_b17etage3);
 plan_b17etage3.fitBounds(bounds13);
 
 
@@ -339,7 +339,7 @@ var salleds = L.circle([80,80], {
     fillColor: '#f03',
     fillOpacity: 0.5,
     radius: 10
-}).addTo(plan_b17etage2);
+}).addTo(plan_b17etage3);
 salleds.bindPopup("Ici se passent les DS des secondaires.");
 var myIcon = L.icon({
     iconUrl: 'img/localisation.png',
