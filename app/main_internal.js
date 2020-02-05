@@ -206,7 +206,7 @@ var image = L.imageOverlay('img/mt.png', bounds12).addTo(plan_mtsousol);
 plan_mtsousol.fitBounds(bounds12);
 
 var bounds13 = [[0,0], [462,548]];
-var plan_b10etage3 = L.map('plan_b10etage3', {
+var plan_b17etage3 = L.map('plan_b17etage3', {
     crs: L.CRS.Simple,
     attributionControl: false,
     minZoom: 0,
@@ -218,8 +218,8 @@ var plan_b10etage3 = L.map('plan_b10etage3', {
     touchZoom: false
     
 });
-var image = L.imageOverlay('img/b10etage2.png', bounds13).addTo(plan_b10etage3);
-plan_b10etage3.fitBounds(bounds13);
+var image = L.imageOverlay('img/b17etage2.png', bounds13).addTo(plan_b17etage3);
+plan_b17etage3.fitBounds(bounds13);
 
 
 
